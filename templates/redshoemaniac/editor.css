@@ -1,0 +1,695 @@
+.wrapper-main > .logobar {
+    background-color:white;
+}
+#header #top #top_primary .moduletable_menu .menu_tree > li > a {
+    color: black;
+}
+#header #top #top_primary .moduletable_menu .menu_tree > li.active {
+    background-color: white;
+}
+#header #top #top_primary .modlogin .menu span a{
+    color: black;
+}
+#header #top #top_primary .modlogin .menu span {
+    color: black;
+}
+#header #top #top_primary .modlogin .menu > li {
+    background: white;
+}
+#header #top #top_primary .shopcart .mod_cart_main .mod_cart_top .mod_cart_title .mod_cart_title_total {
+    color: white;
+}
+.redsearch .product_search .button{
+    background: none;
+    background:url('../images/icon-search1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#featured .newsletter::before {
+    background: none;
+    background-image: url('/images/6.png');
+   
+}
+#featured .newsletter .redshop_newsletter .redshop_newsletter_title{
+    color: black;
+}
+#featured .newsletter .redshop_newsletter .redshop_newsletter_desc{
+    color: black;
+}
+#featured .newsletter .redshop_newsletter .redshop_newsletter_input > input{
+    color: black;
+    border-bottom-color: black;
+}
+
+#featured .newsletter .redshop_newsletter .redshop_newsletter_buttons > input{
+    color: black;
+}
+.flexslider .slides::after{
+    width: 100%;
+    height: auto;
+}
+
+
+#featured .coversl-bottom-right::after{
+    position: static;
+}
+#featured .coversl-bottom-left::after{position: static;}
+
+#grid-tab .module h3{
+    text-transform: none;
+    padding-top: 100px;
+    font-family: 'myfont';
+    padding-bottom: 20px;
+    font-size: 4.2857142857143em;
+    
+}
+#grid-tab .module h3::first-line{  
+    color: #efd195;
+    padding-top: 100px;
+}
+@font-face{
+    font-family: 'myfont';
+    src: url('/templates/redshoemaniac/fonts/quiche/quiche_fonts/QuicheStencil-Medium.otf');
+}
+#grid-tab2 {
+    padding-bottom: 70px;
+}
+#grid-tab2 .module h3{
+    text-transform: none;
+    font-family: 'myfont';
+    font-weight: 500;
+    padding-bottom: 25px;
+    font-size: 4.2857142857143em;
+}
+
+#grid-tab2 .module h3::first-line{  
+    color: #efd195;
+}
+#grid-tab .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price, .moduletable-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price, .module-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price, #grid-tab2 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price, #grid-tab3 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price, #grid-bottom .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price{
+    background: none;
+    color:black;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'myfont_introtex';
+    letter-spacing: 1px;
+    opacity:0.7;
+}
+
+#grid-tab .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_image, .moduletable-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_image, .module-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_image, #grid-tab2 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_image, #grid-tab3 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_image, #grid-bottom .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_image{
+    background: none;
+}
+#grid-tab .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title, .moduletable-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title, .module-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title, #grid-tab2 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title, #grid-tab3 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title, #grid-bottom .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title{
+    background: none;
+    width: 100%;
+    text-align: center;
+    font-family: 'myfont_title';
+    font-size: 24px;
+}
+*{   margin: auto;}
+
+#grid-tab .mod_redshop_products_wrapper .mod_redshop_products_horizontal, .moduletable-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal, .module-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal, #grid-tab2 .mod_redshop_products_wrapper .mod_redshop_products_horizontal, #grid-tab3 .mod_redshop_products_wrapper .mod_redshop_products_horizontal, #grid-bottom .mod_redshop_products_wrapper .mod_redshop_products_horizontal{
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+}
+@font-face{
+    font-family: 'myfont_title';
+    src: url('/templates/redshoemaniac/fonts/droidsans/DroidSans-Bold-webfont.ttf');
+}
+.mod-ourblog .category-module > li:first-child{
+    padding:13px 15px 0 15px;
+}
+
+.mod-ourblog .category-module > li .content h4{
+    text-transform: none;
+    
+}
+
+
+.mod-ourblog .category-module > li .content .mod-articles-category-readmore a{
+    color: #e2b870 ;
+    font-size: 14px;
+    font-family: 'myfont_introtex';
+}
+#social-menu{
+    background: none;
+    background-color: black;
+    margin: auto;
+    line-height: 70px;
+    position: relative;
+    height: 70px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#social-menu .link-ex > a{
+    color:#fff;
+    text-align: left;
+    margin-top: -4px;
+    width: 180px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+#social-menu .link-ex > a >img{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.link-ex {
+    display: inline-block;
+    padding: 0 8px;
+    width: 196px;
+    margin: 0;
+    text-align: center;
+}
+
+#social-menu .link-ex > a > span{
+    display: inline-block;
+    font-family: 'myfont_introtex';
+}
+b, strong{
+    font-family: 'myfont_introtex';
+}
+#footer .container > .row{
+    background: url('/images/img-footer.png');
+    background-size: 100% 162px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    margin: 0;
+}
+#featured .newsletter{
+    background: none;
+    background:#efd195 ;
+}
+#featured .moduletable .container{
+    background: #efd195 !important;
+}
+.wrapper-footer {
+    height: 200px;
+}
+.mod-ourblog .category-module > li .content .mod-articles-category-introtext{
+    font-family: 'myfont_introtex';
+    font-size: 14px; 
+}
+@font-face{
+    font-family: 'myfont_introtex';
+    src: url('/templates/redshoemaniac/fonts/droidsans/DroidSans-webfont.ttf');
+}
+#footer .module > h3{
+    font-family: 'myfont_title';
+    font-size: 16px;
+}
+#footer .module ul.menu > li a{
+    font-family: 'myfont_introtex';
+}
+.mod_redshop_products_image a > img {
+    max-height:200px;
+    width: auto;
+}
+
+
+#footer .container{
+    width: 100%;
+}
+
+.redslider2 .flex-direction-nav .flex-prev::before{
+    background: none;
+    content: none;
+}
+#footer .module{
+    margin: 0;
+}
+#footer .mod_1{
+    padding-left: 8%;
+}
+#footer .mod_2 {
+    padding-left: 6%;
+}
+#footer .mod_3{
+    padding-left: 5%;
+}
+body .wrapper-main.homewrapper{
+    background: white;
+}
+.mod-ourblog .category-module > li .content h4 a{
+    color: #e2b870 ;
+    font-family: 'myfont_title';
+   
+}
+.wrapper-footer{
+    background: white;
+}
+#footer > .container > .arrow-backtop{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 40px;
+    height: 20px;
+    bottom: 0;
+    background: url('../images/icon-backtop.png') no-repeat top center;
+}
+@font-face{
+    font-family: 'myfont_test';
+    src: url('/templates/redshoemaniac/fonts/robaga_rounded/fontrobaga.otf');
+}
+#social-menu .socialicon > ul > li > a{
+    font-family: 'myfont_test';
+    width: 196px;
+}
+
+#grid-tab .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price a, #grid-tab .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title a, .moduletable-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price a, .moduletable-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title a, .module-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price a, .module-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title a, #grid-tab2 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price a, #grid-tab2 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title a, #grid-tab3 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price a, #grid-tab3 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title a, #grid-bottom .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price a, #grid-bottom .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title a{
+    font-family: 'myfont_introtex';
+    font-size: 22px;
+    color: black;
+    opacity: 0.7;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.container{
+    padding: 0;
+}
+#footer {
+    padding-bottom: 0;
+   
+}
+.mod-ourblog .category-module > li .img{
+    padding: 0 15px;
+}
+#breadcrumbs .breadcrumbs span,#prod .redshop_product_box .product_detail_box .prod-name .product_name > h2,
+#prod .redshop_product_box .product_detail_box .product_price_main .product_oldprice, 
+#prod .redshop_product_box .product_detail_box .product_price_main .product_price,
+#prod .redshop_product_box .product_detail_box .product_price_main .product_price-main,
+#prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box > span,
+#prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box > span,
+#prod .redshop_product_box .product_detail_box .prod-manu label,
+#prod .redshop_product_box .product_detail_box .prod-code label, 
+#prod .redshop_product_box .product_detail_box .prod-stock label, 
+#prod .redshop_product_box .product_detail_box .prod-ask label,
+#prod .redshop_product_box .product_detail_box .askprice .prod-ask a,
+#prod .redshop_product_box .product_detail_box .product_attribute .attribute_wrapper .attribute_property .box-color-title > a,
+#prod .redshop_product_box .product_detail_box .product_attribute .attribute_wrapper .attribute_property .box-size-title > a,
+a, #main .describe-blog .title-describe > h2,
+#prod .redshop_product_box .product_detail_box .prod-func .btn-account .wish-btn > a > input[type="submit"], 
+#prod .redshop_product_box .product_detail_box .prod-func .btn-account .wish-btn input[type="button"],
+#prod .redshop_product_box .product_detail_box .prod-func .btn-account .wish-btn .redshop-wishlist-link-login,
+#prod .redshop_product_box .product_detail_box .prod-func .btn-account .wish-btn::after,
+#prod .redshop_product_box .product_detail_box .prod-func .btn-account .comp-btn::after,
+#prod .redshop_product_box .product_detail_box .prod-func .btn-account .wish-btn,
+#prod .redshop_product_box .product_detail_box .prod-func .btn-account .comp-btn,
+.below-prod .reviewbox .title-reviewbox,.below-prod .productbox .recommend_prod > .mod_title,
+#prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box .pro_brand > span,
+#prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box .pro_brand > p, 
+#prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box .pro_material > span, 
+#prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box .pro_material > p, 
+#prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box .pro_catalog > span, 
+#prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box .pro_catalog > p, 
+#prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box .pro_brand > span, 
+#prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box .pro_brand > p, 
+#prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box .pro_material > span,
+#prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box .pro_material > p, 
+#prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box .pro_catalog >span, 
+#prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box .pro_catalog > p,
+#main .describe-blog .backcate-blog > a,#main .blog .page-header > h2, h3, h4, h5, h1, #type-headings, h2,
+.list-triangle > li::after, #reviews_wrapper #reviews_fullname, #reviews_wrapper .title-review,
+.wishls-noproduct .title, .wishls-noproduct a, .login .loginbox > h4,#productlist .title-keyword h3,
+.contact-forms .title, .contactform h3, .contactform .par > a,.registrationbox .registration .freg-title h4, 
+.registrationbox .registration-login .registration-loginbox h4,.registrationbox .fotgotpw
+{
+    color: #e2b870;
+}
+a:hover, a:focus{
+    color: black;
+}
+#main .describe-blog .backcate-blog{
+    color:#e2b870;
+    border-top: 2px solid #e2b870;
+}
+#prod .redshop_product_box .product_detail_box .prod-func .btn-addcart .product-cart-link{
+    height: 60px;
+    background: #e2b870;
+}
+.below-prod .reviewbox .formreview, .below-prod .reviewbox .formreview .table-reviewbox input,
+ .below-prod .reviewbox .formreview .table-reviewbox textarea,.mod-catelist #slider-range > span{
+    border: 1px solid #e2b870;
+}
+.below-prod .reviewbox .formreview .table-reviewbox #btnsubmit,
+.below-prod .productbox .recommend_prod::after,
+.category_box_inside .funcbar .price-btn,.mod-catelist #slider-range > span::after,
+.category_box_ls .category_box_ls_image::after,.category_box_ls .category_box_ls_inside.banner > .category_box_ls_title > h3,
+#type-headings::after, button.btn,input[type="submit"],.btn-default, .nav-pills > li.active > a, .nav-pills > li.active > a:hover,
+ .nav-pills > li.active > a:focus, .below-prod .productbox .recommend_prod::before,
+ #prod .redshop_product_box .product_detail_box .prod-func .btn-account .wish-btn::after,
+#prod .redshop_product_box .product_detail_box .prod-func .btn-account .comp-btn::after,.login .loginbox .button,
+.contactform #submit_button input,.registrationbox::before,
+.registrationbox .registration-login form#registration-login-form button, .registrationbox .registration form#member-registration button
+{
+    background: #e2b870;
+}
+#header #top #top_primary .moduletable_menu .menu_tree .dropdown > .dropdown-menu li:hover{
+    background: #e2b870;
+}
+#header #top #top_primary .moduletable_menu .menu_tree .dropdown-menu ul li ul li a{
+    background: #e2b870;
+}
+.mod-catelist .cls-refine, #reviews_wrapper:last-child{
+    border-bottom: 2px solid #e2b870;
+}
+.mod-catelist #slider-range .ui-slider-range,.category_box_ls .category_box_ls_inside.banner > .category_box_ls_image{
+    border: 2px solid #e2b870;
+}
+.mod-catelist .slide-wrapper, .mod-catelist [id*="typename-"],.wishls-noproduct .title{
+    border-bottom: 1px solid #e2b870;
+}
+.category_box_inside .cate_prod_image div a img{
+    width:auto;
+    height: 200px;
+}
+#prod .redshop_product_box .product_image img{
+    height: 400px;
+    width:auto;
+}
+#sidebar2 .moduletable.archiveblog, #catelist-menu > li:first-child, #reviews_wrapper{
+    border-top: 2px solid #e2b870;
+}
+#sidebar2 .module > .moduletable, #catelist-menu > li{
+    border-top: 1px solid #e2b870;
+}
+.fillbackground-style{
+    background: url('../images/icon-quotenote.png') no-repeat bottom right #e2b870;
+}
+.login .loginbox .login-fields input, .contactform .fieldline .field input, .contactform .fieldline .field textarea,
+.registrationbox .registration-login form#registration-login-form input, .registrationbox .registration form#member-registration input{
+    border: 1px solid #e2b870;
+}
+.registrationbox .registration-login form#registration-login-form button:hover, .registrationbox .registration form#member-registration button:hover{
+    background: black;
+    color: white;
+    border: 1px solid black;
+}
+#logo{
+    width:25%;
+}
+#top{
+    width:75%;
+}
+.productcomp{
+    border-top: 5px solid #e2b870;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary,
+.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, 
+.btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, 
+.btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover,
+ fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active, .btn-primary,
+ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus{
+    background: #e2b870;
+    border-color: #e2b870;
+}
+#header #top #top_primary .shopcart .mod_cart_main .mod_cart_bottom .mod_cart_checkout{
+    background: #e2b870 !important;
+}
+.list-triangle > li::after{border-left: 6px solid #e2b870;}
+.list-square > li::after{border: 3px solid #e2b870;}
+#header #top #top_primary .moduletable_menu .menu_tree > li > a{
+    color:black;
+}
+
+/** sceen  width <  **/
+
+@media (max-width: 767px){
+    #logo{
+        float: left;
+        display:block;
+        width:70%;
+        height: auto;
+        text-align:center;
+    }
+    #header #logo a.image h2,#header #top #top_primary .moduletable_menu > h3{
+        display:none;
+    }
+  
+    #header #top #top_primary .moduletable_menu .menu_tree .dropdown > .dropdown-menu li:hover{
+        background: darkgrey;
+    }#breadcrumbs .breadcrumbs span, #prod .redshop_product_box .product_detail_box .prod-name .product_name > h2, 
+    #prod .redshop_product_box .product_detail_box .product_price_main .product_oldprice, 
+    #prod .redshop_product_box .product_detail_box .product_price_main .product_price,
+    #prod .redshop_product_box .product_detail_box .product_price_main .product_price-main, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box > span, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box > span, 
+    #prod .redshop_product_box .product_detail_box .prod-manu label, #prod .redshop_product_box .product_detail_box .prod-code label, 
+    #prod .redshop_product_box .product_detail_box .prod-stock label, #prod .redshop_product_box .product_detail_box .prod-ask label, 
+    #prod .redshop_product_box .product_detail_box .askprice .prod-ask a, 
+    #prod .redshop_product_box .product_detail_box .product_attribute .attribute_wrapper .attribute_property .box-color-title > a,
+    #prod .redshop_product_box .product_detail_box .product_attribute .attribute_wrapper .attribute_property .box-size-title > a, a, 
+    #main .describe-blog .title-describe > h2, #prod .redshop_product_box .product_detail_box .prod-func .btn-account .wish-btn > a > input[type="submit"], 
+    #prod .redshop_product_box .product_detail_box .prod-func .btn-account .wish-btn input[type="button"], 
+    #prod .redshop_product_box .product_detail_box .prod-func .btn-account .wish-btn .redshop-wishlist-link-login, 
+    #prod .redshop_product_box .product_detail_box .prod-func .btn-account .wish-btn::after, 
+    #prod .redshop_product_box .product_detail_box .prod-func .btn-account .comp-btn::after, 
+    #prod .redshop_product_box .product_detail_box .prod-func .btn-account .wish-btn, 
+    #prod .redshop_product_box .product_detail_box .prod-func .btn-account .comp-btn, .below-prod .reviewbox .title-reviewbox, 
+    .below-prod .productbox .recommend_prod > .mod_title, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box .pro_brand > span, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box .pro_brand > p, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box .pro_material > span, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box .pro_material > p, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box .pro_catalog > span, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_s_desc_box .pro_catalog > p,
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box .pro_brand > span, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box .pro_brand > p, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box .pro_material > span, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box .pro_material > p, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box .pro_catalog > span, 
+    #prod .redshop_product_box .product_detail_box .toggle_box .product_full_desc_box .pro_catalog > p, 
+    #main .describe-blog .backcate-blog > a, #main .blog .page-header > h2, h3, h4, h5, h1, #type-headings, h2, 
+    .list-triangle > li::after, #reviews_wrapper #reviews_fullname, #reviews_wrapper .title-review, .wishls-noproduct .title, 
+    .wishls-noproduct a, .login .loginbox > h4, #productlist .title-keyword h3, .contact-forms .title, .contactform h3, 
+    .contactform .par > a, .registrationbox .registration .freg-title h4, .registrationbox .registration-login .registration-loginbox h4, 
+    .registrationbox .fotgotpw
+    {
+        color:black;
+    }
+    #header #top #top_primary .moduletable_menu .menu_tree .dropdown-menu ul li ul li a{
+        background: none;
+    }
+    #top #top_primary .moduletable_menu:hover{
+        display:block;
+        width:70%;
+    }
+    #nav-menu-mobile >ul{
+       width:100%;
+    }
+    #nav-menu-mobile >ul >li{
+        background: tan;
+        display:block;
+        width:70%;
+        text-align:left;
+        padding-left:10px;
+    }
+    #nav-menu-mobile li{
+        float:right;
+        top:0;
+        
+        height:40px;
+        line-height: 40px;
+        text-align: center;
+        background: mediumturquoise;
+        display:none;
+    }
+    #nav-menu-mobile >ul >li:hover{
+        background: sienna;
+    
+    }
+    #nav-menu-mobile li:hover{
+        background: green;
+    }
+    .logobar #top,.redslider2 ul.slides > li .slide-content,  #featured .moduletable >h3,
+    .mod_redshop_products_readmore{
+        display:none;
+    }
+    #footer{
+        display:block;
+        z-index: none !important;
+    }
+    #grid-tab .module h3, #grid-tab2 .module h3{
+        padding-top: 20px;
+        color:#e2b870;
+        font-size: 40px;
+    }
+    #grid-tab .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price, .moduletable-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price, .module-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price, #grid-tab2 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price, #grid-tab3 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price, #grid-bottom .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price{
+        text-align: center;
+    }
+    #mod_218 .mod_redshop_products_horizontal{
+        width:100%;
+        padding-top:50px;
+    }
+    .mod_redshop_products_image a > img{
+        max-height: 150px;
+    }
+    #grid-tab .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner 
+    .mod_redshop_products_price a, #grid-tab .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer 
+    .mod_redshop_products_inner .mod_redshop_products_title a, .moduletable-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal 
+    .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price a, .moduletable-products .mod_redshop_products_wrapper 
+    .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title a, .module-products 
+    .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price a, 
+    .module-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner
+    .mod_redshop_products_title a, #grid-tab2 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer 
+    .mod_redshop_products_inner .mod_redshop_products_price a, #grid-tab2 .mod_redshop_products_wrapper .mod_redshop_products_horizontal 
+    .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title a, #grid-tab3 .mod_redshop_products_wrapper 
+    .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price a,
+     #grid-tab3 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner 
+     .mod_redshop_products_title a, #grid-bottom .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer
+     .mod_redshop_products_inner .mod_redshop_products_price a, #grid-bottom .mod_redshop_products_wrapper .mod_redshop_products_horizontal
+     .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_title a,
+    #grid-tab .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer 
+    .mod_redshop_products_inner .mod_redshop_products_price, .moduletable-products .mod_redshop_products_wrapper 
+    .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price, 
+    .module-products .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner 
+    .mod_redshop_products_price, #grid-tab2 .mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_redshop_products_outer 
+    .mod_redshop_products_inner .mod_redshop_products_price, #grid-tab3 .mod_redshop_products_wrapper .mod_redshop_products_horizontal
+    .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price, #grid-bottom .mod_redshop_products_wrapper
+     .mod_redshop_products_horizontal .mod_redshop_products_outer .mod_redshop_products_inner .mod_redshop_products_price{
+        font-size: 16px;
+    }
+    #footer > .container > .arrow-backtop{
+        position: static;
+    }
+    #social-menu .moduletable h3 {
+        display:none;
+    }
+    #social-menu .socialicon > ul > li > a {
+        color:white;
+        float: left;
+        width:100%;
+        height: 70px;
+    }
+    #social-menu .socialicon > ul > li{
+        width:50%;
+        height: 70px;
+    }
+    #social-menu .row,#social-menu .row .moduletable, #social-menu .row .moduletable .custom,
+    #social-menu .row .moduletable .custom .socialicon, #social-menu .row .moduletable .custom .socialicon ul
+    {
+        width:100%;
+        height:140px;
+    }
+    #social-menu{
+        height:140px;
+        line-height: none;
+    }
+    #grid-tab2 .module .category-module li,  #footer .container .container .row .module ul li{
+        list-style: none;
+    }
+    *{
+        padding:0;
+    }
+    .slick-prev{
+        left:50px;
+        background: #e2b870;
+        display:block;
+    }
+    .slick-next{
+        right:50px;
+        background:#e2b870;
+    }
+    .slick-arrow:hover, .slick-arrow:focus, .slick-arrow:active{
+        background:black;
+    }
+
+    .slick-arrow{
+        font-size: 0;
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        cursor: pointer;
+        z-index:1000;
+    }
+    #footer .module > h3{
+        background: url('/images/menu_footer_3.png') ;
+        background-size: 10% auto;
+        background-position: right center ;
+        background-repeat: no-repeat;
+        font-size:14px;
+        width:100%;
+        cursor: pointer;
+    }
+    #footer .module > h3:hover{
+        background: url('/images/menu_footer_4.png') ;
+        background-size: 10% auto;
+        background-position: right center ;
+        background-repeat: no-repeat;
+        color:red;
+    }
+    #footer .module {
+        width:100%;
+    }
+  
+    #footer .col-sm-6{
+        width:50%;
+    }
+    #footer .container > .row{
+        flex-direction: column;
+    }
+    #footer .mod_1, #footer .mod_2, #footer .mod_3{
+        padding-left:8%;
+        height:auto;
+    }
+    
+    .topbar{
+        display:none;
+    }
+    #nav-menu-mobile .navbar-nav{
+        text-align:right;     
+        flex-direction: column;
+        z-index:10000;
+        position: fixed;
+        opacity:0.7;
+    }
+    .menu_smp{
+        float: right;
+        width:35px;
+        background:url('/images/menu_icon_1.png');
+        height: 35px;
+        background-repeat: no-repeat;
+        margin-top:20px;
+        margin-right:30px;
+        cursor: pointer;
+    }
+    .navbar-toggle{
+        display:none;
+    }
+    #footer .mod_1 >ul, #footer .mod_2 >ul, #footer .mod_3 >ul{
+        display:none;
+    }
+    #footer .col-sm-6{
+        width:55%;
+    }
+    #footer .container > .row{
+        background-repeat: repeat;
+    }
+    #grid-tab .module h3, #grid-tab2 .module h3{
+        padding-bottom: 0;
+    }
+    #grid-tab2 .img{
+        padding-top:25px;
+    }
+
+}
+@media (min-width:768px)
+{
+    .nav-menu-mobile{
+        display:none;
+    }
+}
+

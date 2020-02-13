@@ -1,0 +1,72 @@
+.error {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: url("../images/404.png") no-repeat top center #fff;
+	background-size: 100%;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+#errorboxoutline
+{
+}
+#errorboxheader .oops
+{
+	color: #FFF;
+	font-size: 100px;
+	text-shadow: 0px -2px 2px #999;
+}
+
+#errorboxheader .div404
+{
+	display: none;
+}
+
+#errorboxbody{
+	position: absolute;
+	display: block;
+	width: 800px;
+	height: 250px;
+	left: 0;
+	right: 0;
+	top: -50%;
+	bottom: 0;
+	margin: auto;
+	padding-top: 0;
+	transform: translateY(-10%);
+	-o-transform: translateY(-10%);
+	-moz-transform: translateY(-10%);
+	-webkit-transform: translateY(-10%);
+	max-width: 95%;
+}
+#errorboxbody p{
+	color: #555;
+	font-size: 18px;
+	font-family: "droidsansregular", Helvetica, Arial, sans-serif;
+}
+#errorboxbody .btnhome{
+	color: #555;
+	text-decoration: underline;
+}
+#techinfo
+{
+	font-size: 14px;
+}
+#errorboxbody .errorbutton{
+	width: 300px;
+	float: none;
+	margin: auto;
+	border-top: 1px solid #000;
+	margin-top: 19px;
+}
+#errorboxbody .title404{
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}

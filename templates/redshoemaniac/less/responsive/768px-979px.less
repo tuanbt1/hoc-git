@@ -1,0 +1,385 @@
+//
+// Responsive: Tablet to desktop
+// --------------------------------------------------
+
+@media (min-width: 768px) and (max-width: 979px) {
+	#footer{
+		.row{
+			.mod_1{
+				padding-left: 18px !important;
+			}
+			>.module{
+				padding-left: 5px!important;
+			}
+		}
+		.module{
+			margin-top: 0;
+		}
+	}
+	.tab-social{
+		.mod_3{
+			h3{
+				margin-left:0;
+			}
+		}
+	}
+	#redshopcomponent{
+		.rcart-belowcart{
+			.rcart-checkout{
+				float: none;
+				width: 50%;
+				margin: 0 auto;
+				.btns{
+					.absshopmore{
+						right: 60px;
+					}
+					.btnback{
+						text-align: center;
+					}
+				}
+			}
+			.quotecart-checkout{
+				float: right;
+			}
+			.rcart-customer-note-below{
+				float: none;
+				width: 375px;
+				margin: 0 auto;
+				padding-bottom: 50px;
+			}
+		}
+		.rdcart > tbody .tdborder .product_image img{ width: 95%;}
+		.rdcart >tbody .tdborder .rcart-qty-quote{width:9.5%;}
+		.category_box{
+			.cate-fun-bar{
+				.order_by{
+					text-align: left;
+				}
+				.numprod-display{
+					float: left;
+					text-align: left;
+					.limit{
+						margin: 0 0 0 11px;
+					}
+				}
+			}
+		}
+	}
+	.rdcart{
+		.rcart-img,.rcart-price,.rcart-opt-tit,.rcart-price-tit{
+			display:none;
+		}
+		.rcart-remove{
+			form{
+				.delete_cart{
+					display: none;
+				}
+				.delete_s{
+					display: inline-block!important;
+					width: 20px;
+					height: 24px;
+					background: url('../images/redcross.png') no-repeat center center;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	#redcatproducts,#redshopcomponent{
+		.category-list{
+			padding: 0 0 20px 0;
+			.category_box_inside{
+				.funcbar{
+					.comp-btn>div{
+						margin-left: 0;
+					}
+					.wish-btn>div{
+						margin-left: 0;
+					}
+				}
+			}
+		}
+	}
+	#prod{
+		.redshop_product_box{
+			.rightcol{
+				margin-left: 15px
+			}
+		}
+	}
+	.container-acc{
+		.tab-contents{
+		    .per-info,.shipadd,.orderinfo{
+		    	border:none;
+		    }
+		}
+	}
+	#redshopcomponent{
+		.category_box_inside{
+			.funcbar{
+				.cart-btn{
+					>div{
+						.addtocart_formclass{
+							>div{
+								float:left;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	/*menuinfo -fix*/
+	#footer{
+		.row{
+			.menuinfopar{
+				h3,.menuinfo{
+					margin-left:0;
+				}
+			}
+			.menucuspar{
+				h3,.menucus{
+					margin-left: 0;
+				}
+			}
+			.menuaccpar{
+				h3,.menuacc{
+					margin-left: 0;
+				}
+			}
+			.menucont{
+				margin-left: 0;
+				padding-left: 15px;
+			}
+		}
+	}
+	.checkout-bar {
+		&.bar-1-active,&.bar-2-active,&.bar-3-active{
+			background: #dfd5dd;
+		}
+		ul{
+			.checkout-bar-1,.checkout-bar-2,.checkout-bar-3,
+			.checkout-bar-1-active,.checkout-bar-2-active,.checkout-bar-3-active{
+				text-align: left;
+				width: 100%;
+			}
+			.checkout-bar-1-active,.checkout-bar-2-active,.checkout-bar-3-active{
+				background: @link-color;
+			}
+		}
+	}
+	.table_billing{
+		.billadd,.shipadd,.paymenthod,.shipmethod{
+			margin: 0;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	.account-tab{
+		.per-info{
+			&:after{
+				display: none!important;
+			}
+		}
+		.acc-info{
+			display: none;
+		}
+		ul.tabs{
+			.tab-link{
+				width: 100%;
+				text-align: left;
+				padding-left: 10px;
+			}
+		}
+	}
+	.accbillto{
+		.per_info:after{
+			display: none;
+		}
+		.per_info{
+			width: 100%;
+		}
+	}
+	.limitarrow .pagination-links{
+		right: -5px !important;
+	}
+	.acc_info .sub-admintable .password .pasww2{
+		padding-left: 0px;
+		.title{
+			width: 100px;
+		}
+	}
+	.pos2 .navbar-nav{
+		float: none;
+	}
+	.manufacturer_image a img{ margin: 0 auto;}
+	#redcatproducts .category_box_inside .category_product_conner{ top: 33%;}
+	.searchwrapper{
+		.category_box_inside .searchconner{top: 46%;}
+	}
+	.toolbar{padding-bottom: 20px;}
+	.update_cart{
+		text-align: center;
+		form .inputbox{
+			width: 35%!important;
+		}
+	}
+	.wish-btn .getquote_wl{ margin-left: 0!important;}
+	#prod .redshop_product_box .product_detail_box .prod-social .facebtn,
+	#prod .redshop_product_box .product_detail_box .prod-social .twitterbtn,
+	#prod .redshop_product_box .product_detail_box .prod-social .pinterestbtn,
+	#prod .redshop_product_box .product_detail_box .prod-social .ggplustbtn{
+		display: inline-block;
+	}
+	.searchwrapper{
+		.funcsearch{
+			>div{
+				display: inline-block;
+			}
+			.cart-btn{
+				>div{
+					.addtocart_formclass{
+						>div{
+							float:left;
+							.cart-link{
+								padding-bottom: 0;
+								padding-top: 0;
+								>span{
+									border: none;
+								}
+							}
+						}
+					}
+				}
+			}
+			.wish-btn, .comp-btn{
+				width: 20%;
+				float: left;
+				padding: 0 5px;
+				>div{
+					margin-left: 0;
+					border: none;
+				}
+			}
+			.wish-btn >div a{
+				background-position: right;
+			}
+			.cart-btn{
+				width: auto;
+				float: right;
+				padding: 0;
+			}
+		}
+	}
+	#wishls .wishls-func{
+		div{
+			width: auto;
+			padding-left: 20px;
+			.cart-link span{
+				border: none;
+			}
+			&:last-child{
+				float: right;
+			}
+		}
+	}
+	.redcarp{
+		.slide-content{
+			.slideTitle h3 a{
+				font-size: 35px;
+			}
+		}
+	}
+	.category_box_inside .descbar .category_product_name,
+	.category_box_inside .descbar .cate-prod-price,
+	.category_box_inside .funcbar .viewdetail-btn >a,
+	.category_box_inside .funcbar .viewdetail-btn .cart-link span,
+	.category_box_inside .funcbar .cart-btn >a,
+	.category_box_inside .funcbar .cart-btn .cart-link span
+	{
+		.fontsize(18);
+	}
+	#sidebar1{
+		>.module{
+			>div{
+				display: none;
+			}
+			.mobitab{
+				display: none;
+			}
+		}
+	}
+	.newsletter{
+		background: @link-header!important;
+		&:before{
+			display: none!important;
+		}
+		.redshop_newsletter{
+			display: table!important;
+			position: relative!important;
+			margin: auto!important;
+			padding: 20px 0!important;
+			top: 0;
+			right: 0!important;
+			bottom: 0!important;
+		}
+	}
+	.contact-forms .col-contact{
+		padding: 0 15px;
+	}
+	#main .blog:not(.article){
+		text-align: center;
+		.item{
+			float: none;
+			display: inline-block;
+			padding: 10px;
+			margin: 5px auto;
+			.img-intro-left,.none-img-intro{
+				width: 98%;
+			}
+		}
+	}
+	.mod-support{
+		margin-bottom: -15px;
+		>.sup-inner{
+			padding-bottom: 15px;
+			padding-top: 15px;
+		}
+	}
+	.registrationbox .registration-login form#registration-login-form,
+	.registrationbox .registration form#member-registration{
+		height: 322px;
+		.fotgotpw,button{
+			margin-left: 79px;
+		}
+	}
+	#header #top #top_primary .moduletable_menu .menu_tree .dropdown-menu ul li{
+		width: 270px;
+	}
+	#header #top #top_primary{
+		display: table;
+		.moduletable_menu{
+			padding: 0;
+		}
+		.moduletable_menu .show_menu_tree,
+		.shopcart .mod_cart_main .mod-cart-wishlist-button,
+		.shopcart .mod_cart_main .mod_cart_top,
+		.shopcart .mod_cart_main .mod_cart_top .mod_cart_title,
+		.redsearch .product_search{
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+		}
+		.modlogin,.moduletable{
+			height: 40px;
+			line-height: 40px;
+			display: table-cell;
+			vertical-align: middle;
+			float: none;
+		}
+	}
+	.is_firefox{
+		.redcarp .slide-content .slideTitle h3 a:before{
+			height: 200%;
+		}
+	}
+}

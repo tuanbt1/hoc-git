@@ -1,0 +1,783 @@
+//
+// Responsive: Landscape phone to desktop/tablet
+// --------------------------------------------------
+
+@media (max-width: 767px) {
+	#footer{
+		.navbar-nav {
+			float: left;
+			margin: 0;
+		}
+		.module{
+			margin-top: 0;
+		}
+	}
+	.right-toolbar{
+		.search{
+			position:absolute;
+			top:8px;
+			left:0;
+		}
+	}
+	.tab-social{
+		.mod_3{
+			h3{
+				margin-left:0;
+			}
+		}
+	}
+	#redshopcomponent{
+		.rcart-belowcart{
+			.rcart-checkout{
+				float: none;
+				margin: auto;
+				padding: 0;
+			}
+		}
+		.category_box{
+			.cate-fun-bar{
+				.order_by{
+					text-align: left;
+				}
+				.numprod-display{
+					float: left;
+					text-align: left;
+					.limit{
+						margin: 0 0 0 11px;
+					}
+				}
+			}
+		}
+		.rdcart > tbody .tdborder .rcart-desc{ width: 44%;}
+		.rdcart > tbody .tdborder .rcart-qty{ width: 15%;}
+		.rdcart > tbody .tdborder .rcart-pricetotal{ width: 20%;}
+	}
+	#redcatproducts, #redshopcomponent{
+		.category-list{
+			padding: 0 0 20px 0;
+			.category_box_inside{
+				.funcbar{
+					.comp-btn>div{
+						margin-left: 0;
+					}
+				}
+			}
+		}
+		.category_box_wrapper{
+			.category_box_inside{
+				.funcbar{
+					.comp-btn{
+						text-align: left;
+						>a{
+							border:none;
+							width:29px;
+							margin:5px 0 0 0;
+						}
+					}
+					.cart-btn{
+						>div{
+							.addtocart_formclass{
+								>div{
+									float:left;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	#prod{
+		.redshop_product_box{
+			margin:0px;
+			.rightcol{
+				margin-left: 0;
+			}
+			.leftcol{
+				padding-left: 0;
+				.product_image{
+					width: 100%;
+				}
+			}
+		}
+		.below-prod{
+			.related-prod #redcatproducts .related-wrapper{
+				margin: 25px -20px 0 -5px;
+			}
+		}
+	}
+	.rdcart{
+		>thead,.rcart-img,.rcart-opt,.rcart-price,.rcart-opt-tit,.rcart-price-tit{
+			display:none;
+		}
+		.rcart-remove{
+			form{
+				.delete_cart{
+					display: none;
+				}
+				.delete_s{
+					display: inline-block!important;
+					width: 20px;
+					height: 24px;
+					background: url('../images/redcross.png') no-repeat center center;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	.funcbar-checkout{
+		>h4 label{
+			padding:0;
+			border:none;
+			background:none;
+			margin:0!important;
+		}
+	}
+	.container-acc{
+		.tab-contents{
+		    .per-info,.shipadd,.orderinfo{
+		    	border:none;
+		    }
+		}
+	}
+	#wishls{
+		.wishls-func{
+			div{
+				.cart-link span{
+					border:none;
+					padding:0 30px 0 0;
+					margin-left: -15px;
+				}
+			}
+		}
+	}
+	#redshopcomponent{
+		.category_box_inside{
+			.funcbar{
+				.cart-btn{
+					>div{
+						.addtocart_formclass{
+							>div{
+								float:left;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	/*menuinfo -fix*/
+	#footer{
+		.row{
+			.menuinfopar{
+				h3,.menuinfo{
+					margin-left:0;
+				}
+			}
+			.menucuspar{
+				h3,.menucus{
+					margin-left: 0;
+				}
+			}
+			.menuaccpar{
+				h3,.menuacc{
+					margin-left: 0;
+				}
+			}
+			.menucont{
+				margin-left: 0;
+				padding-left: 15px;
+			}
+		}
+	}
+	.table_billing{
+		.billadd,.shipadd,.paymenthod,.shipmethod{
+			margin: 0;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	.limitarrow .pagination-links{
+		right: -5px !important;
+	}
+	.category_box_wrapper{
+		margin: 20px auto;
+		text-align: center;
+	}
+	.acc_info .sub-admintable .password .pasww2{
+		padding-left: 0px;
+		.title{
+			width: 100px;
+		}
+	}
+	#nav-menu{
+		overflow: visible;
+		.navbar-nav{
+			margin:auto;
+			 > li{
+				.dropdown-menu{
+					> ul{
+						border: none;
+					}
+				}
+			 }
+		}
+	}
+	.topbar .menubar #menu #nav-menu{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.topbar .menubar #menu .navbar-nav > li{
+		padding: 0;
+	}
+	#nav-menu{
+		max-height: 100%;
+		.navbar-nav{
+			margin:auto;
+			 > li{
+			 	display: inline-block;
+			 	padding-right:0;
+			 	position: relative;
+			 	width: 100%;
+			 	&:hover .dropdown-menu{
+			 		display: none;
+			 	}
+			 	&:after{
+			 		display: none!important;
+			 	}
+				.fun-caret{
+					float: right;
+					display:block;
+					position: absolute;
+					right: 0px;
+					top: 0px;
+					background: url('../images/icon-flower-whiteco.png') no-repeat center center;
+					border-radius: 50%;
+					width: 35px;
+					height: 25px;
+				}
+				>a{
+					display: inline-block;
+					width: 100%;
+					padding-left: 0;
+					.caret{
+						float:left;
+						display: none;
+					}
+				}
+				.dropdown-menu{
+					position: relative;
+					margin-bottom: 10px;
+					width: 100%;
+					left: 0;
+					> ul{
+						>li{
+							width:100%;
+							display: inline-block;
+							position: relative;
+						}
+					}
+					.sub-menu{
+						margin-left: 0px;
+						visibility: visible;
+					}
+				}
+			 }
+		}
+	}
+	.navbar-header{
+		position: relative;
+		&:before{
+			content: 'menu';
+			display: block;
+			position: absolute;
+			top: 5px;
+			left: 0;
+			font-size: 24px;
+			font-weight: bold;
+			color: #fff;
+			text-transform: uppercase;
+		}
+		.navbar-toggle{
+			margin: 0;
+			border: none;
+			padding: 10px 0 10px 20px;
+			&:focus, &:hover{
+				background: none;
+			}
+			.icon-bar{
+				background-color: #fff;
+			}
+		}
+	}
+	.manufacturer_image a img{
+		margin: 0 auto;
+	}
+	.searchwrapper{
+		&.manufact_box_wrapper{
+			.search_box_outside{
+				vertical-align: top;
+			}
+		}
+		.search_box_outside{
+			width: auto;
+			display: inline-block;
+			height: 300px!important;
+			min-width: 275px;
+			float: none;
+		}
+		.category_box_inside .searchconner{top: 51%;}
+	}
+	.update_cart{
+		text-align: center;
+		form .inputbox{
+			width: 35% !important;
+		}
+	}
+	.toolbar .wrapper-toolbar{
+		float: left;
+	}
+	.mystretchermy label{
+		background: none;
+		margin-top: 0!important;
+	}
+	.rcart-customer-note{
+		width: 375px;
+		margin: 0 auto;
+		padding-bottom: 50px;
+		> h4{
+			text-align: left;
+		}
+	}
+	.wish-btn .getquote_wl{ margin-left: 0!important;}
+	#grid-bottom .-alsobought h3{
+		text-align: center;
+	}
+	#prod .redshop_product_box .product_detail_box .prod-social .facebtn,
+	#prod .redshop_product_box .product_detail_box .prod-social .twitterbtn,
+	#prod .redshop_product_box .product_detail_box .prod-social .pinterestbtn,
+	#prod .redshop_product_box .product_detail_box .prod-social .ggplustbtn{
+		display: inline-block;
+	}
+	#toolbar{
+		.navbar-nav li .text{
+			display: none;
+		}
+		.navbar-nav li span:last-child{
+			padding-left: 5px;
+		}
+	}
+	#sidebar1{
+		>.module{
+			>div{
+				display: none;
+			}
+			.mobitab{
+				display: none;
+			}
+			.catemenu{
+				padding: 0 15px;
+			}
+		}
+	}
+	.searchwrapper{
+		.funcsearch{
+			>div{
+				display: inline-block;
+			}
+			.cart-btn{
+				>div{
+					.addtocart_formclass{
+						>div{
+							float:left;
+							.cart-link{
+								padding-bottom: 0;
+								padding-top: 0;
+								>span{
+									border: none;
+								}
+							}
+						}
+					}
+				}
+			}
+			.wish-btn, .comp-btn{
+				width: 20%;
+				float: left;
+				padding: 0 5px;
+				>div{
+					margin-left: 0;
+					border: none;
+				}
+			}
+			.wish-btn >div a{
+				background-position: right;
+			}
+			.cart-btn{
+				width: auto;
+				float: right;
+				padding: 0;
+			}
+		}
+	}
+	#featured{
+		.topoffer{
+			position: relative;
+			padding: 0;
+			margin: 0;
+			.left-offer,.right-offer{
+				margin: auto;
+				margin-bottom: 10px;
+				width: 100%;
+			}
+			.left-offer{
+				padding-right: 0;
+			}
+			.right-offer{
+				img{
+					margin: auto;
+					width: auto;
+				}
+			}
+		}
+		.moduletable{
+			overflow: hidden;
+		}
+	}
+	.redcarp{
+		.flex-direction-nav{
+			display: none;
+		}
+		.slide-content{
+			.slideTitle h3 a{
+				font-size: 30px;
+			}
+			.sl-readmore{
+				display: none;
+			}
+		}
+	}
+	.topbar .menubar{
+		width: 100%;
+	}
+	.moduletable-cate-top > .custom > h3{
+		font-size: 16px;
+	}
+	.category_box_inside .descbar .category_product_name,
+	.category_box_inside .descbar .cate-prod-price,
+	.category_box_inside .funcbar .viewdetail-btn >a,
+	.category_box_inside .funcbar .viewdetail-btn .cart-link span,
+	.category_box_inside .funcbar .cart-btn >a,
+	.category_box_inside .funcbar .cart-btn .cart-link span
+	{
+		.fontsize(16);
+	}
+	#header #top #top_primary{
+		.moduletable_menu .show_menu_tree,
+		.shopcart .mod_cart_main .mod-cart-wishlist-button,
+		.shopcart .mod_cart_main .mod_cart_top,
+		.shopcart .mod_cart_main .mod_cart_top .mod_cart_title,
+		.redsearch .product_search{
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+		}
+		.modlogin,.moduletable{
+			height: 40px;
+			line-height: 40px;
+		}
+		.moduletable_menu{
+			height: auto;
+			padding-right: 0;
+			&.active{
+				width: 100%;
+				.show_menu_tree{
+					width: 100%;
+					text-align: right;
+				}
+			}
+			.caret{
+				display: none;
+			}
+			.dropdown{
+				&.active{
+					background: #333;
+				}
+				.dropdown-menu.active{
+					display: block;
+					background: #333;
+				}
+				.dropdown-menu{
+					>ul li.active{
+						background: @link-color;
+						.sub-menu{
+							display: block;
+							visibility: visible;
+							background: @link-color;
+						}
+					}
+				}
+			}
+			.show_menu_tree{
+				display: block;
+				float: left;
+				background: url('../images/icon-mobile-menu.png') no-repeat center center;
+			}
+			.menu_tree{
+				display: none;
+			}
+		}
+	}
+	.topbar{
+		&.active{
+			display: block;
+		}
+		#nav-menu-mobile.active{
+			display: block;
+			>.menu{
+				.caret{
+					display: none;
+				}
+				>li >a{
+					padding-left: 10px;
+				}
+				.touch-menu{
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					right: 0;
+					margin: auto;
+					width: 30px;
+					height: 14px;
+					background: url('../images/icon-menuarrow.png') no-repeat top center;
+				}
+				>.dropdown{
+					&.active{
+						>ul{
+							display: block;
+						}
+					}
+					>ul.dropdown-menu{
+						position: relative;
+						width: 100%;
+						>li .sub-menu{
+							position: relative;
+							width: 100%;
+							left: 0!important;
+							background: @link-color;
+							visibility: visible;
+							a{
+								padding-left: 35px;
+							}
+							&:after,&:before{
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.newsletter{
+		background: @link-header!important;
+		&:before{
+			display: none!important;
+		}
+		.redshop_newsletter{
+			display: table!important;
+			position: relative!important;
+			margin: auto!important;
+			padding: 20px 0!important;
+			width: auto!important;
+			right: 0!important;
+			bottom: 0!important;
+		}
+	}
+	.img-brand{
+		.brand-inner{
+			padding: 0;
+		}
+	}
+	.registrationbox{
+		.registration-loginbox .login-fields.password{
+			padding: 0;
+		}
+		.registration-loginbox .login-fields{
+			float: none;
+			width: auto;
+			height: 50px;
+		}
+		.registration-loginbox .btn-loginbox-submit{
+			padding-top: 0;
+		}
+		.registration-login form#registration-login-form,
+		.registration form#member-registration{
+			text-align: center;
+			>div,>fieldset >div,.fotgotpw{
+				text-align: center;
+			}
+			button{
+				margin-left: 79px;
+			}
+		}
+	}
+	.registrationbox .registration-login form#registration-login-form,
+	.registrationbox .registration form#member-registration{
+		height: auto;
+	}
+	.category_box_ls .category_box_ls_sdesc{
+		font-size: 20px;
+		line-height: normal;
+		margin: 0 auto;
+	}
+	table.compa-table{
+		width: 100%;
+		display: block;
+		border: none;
+		overflow-x: scroll;
+	}
+	.compa-table{
+		>tbody >tr >th{
+			display: none;
+		}
+		>tbody >tr >td{
+			min-width: 135px;
+		}
+		.compaimg div[name*='exp_'] >div{
+			width: auto!important;
+			text-align: center;
+		}
+	}
+	.checkout-bar {
+		&.bar-1-active,&.bar-2-active,&.bar-3-active{
+			background: #dfd5dd;
+		}
+		ul{
+			.checkout-bar-1,.checkout-bar-2,.checkout-bar-3,
+			.checkout-bar-1-active,.checkout-bar-2-active,.checkout-bar-3-active{
+				background: #dfd5dd;
+				text-align: left;
+				width: 100%;
+			}
+			.checkout-bar-1-active,.checkout-bar-2-active,.checkout-bar-3-active{
+				background: @link-color;
+			}
+		}
+	}
+	.account-tab{
+		.per-info{
+			&:after{
+				display: none!important;
+			}
+		}
+		.acc-info{
+			display: none;
+		}
+		ul.tabs{
+			.tab-link{
+				width: 100%;
+				text-align: left;
+				padding-left: 10px;
+			}
+		}
+	}
+	.accbillto{
+		.per_info:after{
+			display: none;
+		}
+		.per_info{
+			width: 100%;
+		}
+	}
+	.left-offer,.right-offer{
+		margin-bottom: 10px;
+		padding: 0;
+	}
+	.contact-forms .col-temp{
+		margin-right: 0;
+	}
+	.contact-forms .col-contact{
+		padding: 0 15px;
+	}
+	#divShipping .admintable{
+		margin-left: 0;
+		width: 100%;
+	}
+	.category_box_inside .cate_prod_image{
+		height: auto;
+		min-height: 231px;
+	}
+	.manufacturer_box_wrapper{
+		text-align: center;
+		>.manufacturer_box{
+			float: none;
+		}
+	}
+	.row.manufacturer_products{
+		.manufacturer_img{
+			width: 100%;
+			img{
+				margin: auto;
+				width: auto;
+			}
+		}
+		.manufacturer_description{
+			width: auto;
+			text-align: justify;
+		}
+	}
+	#main .blog:not(.article){
+		text-align: center;
+		.item{
+			float: none;
+			display: inline-block;
+			padding: 10px;
+			margin: 5px auto;
+			.img-intro-left,.none-img-intro{
+				width: 98%;
+			}
+		}
+	}
+	.personal-login {
+		width: 100%;
+		#login_div .username,#login_div .password-box{
+			> label{
+					width: 100%;
+					padding: 0;
+					border: none;
+			}
+		}
+		.iconradiobox{
+			vertical-align: middle!important;
+		}
+		label{
+			margin: 0;
+			padding: 0;
+			background: none;
+			border: none;
+			width: auto;
+			vertical-align: sub!important;
+		}
+		#login_div .forgot-pass{
+			padding-left: 0;
+		}
+	}
+	.mod-support{
+		margin-bottom: -15px;
+		>.sup-inner{
+			padding-bottom: 15px;
+			padding-top: 15px;
+		}
+	}
+	#redshopcomponent .category_box .cate-fun-bar{
+		.category_pagination{
+			text-align: center;
+			ul, li{
+				float: none;
+			}
+		}
+	}
+	.moduletable-cate-top .category-img span{
+		display: none;
+	}
+}

@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){function e(){if(jQuery("#footer")){var e=jQuery("#footer").outerHeight();jQuery(".wrapper-footer").height(e)}}jQuery(window).load(function(){jQuery("#footer.sticky").css("bottom","0").css("position","absolute").css("z-index","1000"),e()}),e(),jQuery(window).resize(function(){e()})});

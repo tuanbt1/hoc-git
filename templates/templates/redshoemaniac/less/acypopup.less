@@ -1,0 +1,71 @@
+//acypopup position
+.acypopup{
+	position: fixed;
+	width: auto;
+	min-height: 200px;
+	bottom: 10px;
+	right: 10px;
+	padding: 20px;
+	background: lighten(@body-bg, 20%);
+	display: flex;
+	align-items: center;
+	text-align: center;
+	z-index: -1;
+	opacity: 0;
+	box-shadow: 0 0 10px black;
+	-webkit-box-shadow: 0 0 10px black;
+	&.shown{
+		z-index: 1024;
+		opacity: 1;
+	}
+	&.minimize{
+		min-height: 0px;
+		padding-top: 30px;
+		h3{
+			font-size: 12px;
+			margin: 0;
+		}
+		.acymailing_module{
+			display: none;
+		}
+	}
+	.module,
+	.moduletable{
+		margin: 0;
+	}
+	.acymailing_form{
+		.acyfield_name,
+		.acyfield_email,
+		.acysubbuttons{
+			display: inline-block;
+			input{
+				display: inline-block;
+				width: 100%;
+				height: 30px;
+				line-height: 30px;
+				padding-top: 0;
+				padding-bottom: 0;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+		}
+	}
+	.acymailing_introtext{
+		margin-bottom: 15px!important;
+		display: inline-block;
+	}
+	.hoverbtn{
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		cursor: pointer;
+	}
+	.closebtn,
+	.minibtn{
+		display: inline-block;
+		margin: 0 5px;
+	}
+	h3{
+		margin-top: 0;
+	}
+}

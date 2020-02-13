@@ -1,0 +1,204 @@
+//
+// Responsive: Tablet to desktop
+// --------------------------------------------------
+
+@media (min-width: 978px) and (max-width: 1199px) {
+	.acc_info .sub-admintable{
+		text-align: center;
+	}
+	.acc_info .sub-admintable .password .pasww2{
+		padding-left: 0px;
+		.title{
+			width: 100px;
+		}
+	}
+	.contact-form .leftcol .add span{
+		width: 80%;
+	}
+	.acc_info .sub-admintable{
+		text-align: left;
+	}
+	.prod-sidebar .mod_redshop_products .mod_redshop_products_title{
+		top: 0;
+	}
+	#redcatproducts .category_box_inside .category_product_conner{
+		top: 34%;
+	}
+	#prod .redshop_product_box .product_detail_box .prod-func .funcbar .comp-btn,
+	#prod .redshop_product_box .product_detail_box .prod-func .funcbar .wish-btn{
+		display:block;
+		width: 180px;
+		text-align: left;
+		padding: 0;
+	}
+	.searchwrapper{
+		.funcsearch{
+			>div{
+				display: inline-block;
+			}
+			.cart-btn{
+				>div{
+					.addtocart_formclass{
+						>div{
+							float:left;
+							.cart-link{
+								padding-bottom: 0;
+								padding-top: 0;
+								>span{
+									border: none;
+								}
+							}
+						}
+					}
+				}
+			}
+			.wish-btn, .comp-btn{
+				width: 20%;
+				float: left;
+				padding: 0 5px;
+				>div{
+					margin-left: 0;
+					border: none;
+				}
+			}
+			.wish-btn >div a{
+				background-position: right;
+			}
+			.cart-btn{
+				width: auto;
+				float: right;
+				padding: 0;
+			}
+		}
+	}
+	#redcatproducts,#redshopcomponent{
+		.category-list{
+			padding: 0 0 20px 0;
+			.category_box_inside{
+				.funcbar{
+					.comp-btn>div{
+						margin-left: 0;
+					}
+					.wish-btn>div{
+						margin-left: 0;
+					}
+				}
+			}
+		}
+	}
+	.category_box_inside .category_product_conner{
+		top: 35%;
+	}
+	.newsletter .redshop_newsletter_buttons, .newsletter .redshop_newsletter_input{
+		>input{
+			margin: 0;
+		}
+	}
+	.newsletter .redshop_newsletter_label{
+		width: 100%;
+		text-align: center;
+	}
+	#wishls .wishls-func{
+		div{
+			width: auto;
+			&:last-child{
+				float: right;
+			}
+		}
+	}
+	.redcarp{
+		.slide-content{
+			.slideTitle h3 a{
+				font-size: 40px;
+			}
+		}
+	}
+	.category_box_inside .descbar .category_product_name,
+	.category_box_inside .descbar .cate-prod-price,
+	.category_box_inside .funcbar .viewdetail-btn >a,
+	.category_box_inside .funcbar .viewdetail-btn .cart-link span,
+	.category_box_inside .funcbar .cart-btn >a,
+	.category_box_inside .funcbar .cart-btn .cart-link span
+	{
+		.fontsize(18);
+	}
+	.newsletter{
+		background: @link-header!important;
+		&:before{
+			display: none!important;
+		}
+		.redshop_newsletter{
+			display: table!important;
+			position: relative!important;
+			margin: auto!important;
+			padding: 20px 0!important;
+			right: 0!important;
+			bottom: 0!important;
+		}
+	}
+	.table_billing{
+		.billadd,.shipadd,.paymenthod,.shipmethod{
+			margin-top: 0;
+			max-width: 100%;
+		}
+	}
+	#main .blog{
+		.item{
+			margin-bottom: 1%;
+			.img-intro-left,.none-img-intro{
+				width: 95%;
+			}
+		}
+	}
+	.accbillto{
+		.per_info:after{
+			display: none;
+		}
+		.per_info{
+			width: 100%;
+		}
+	}
+	.registrationbox .registration-login form#registration-login-form,
+	.registrationbox .registration form#member-registration{
+		height: 322px;
+	}
+	.registrationbox .registration-loginbox .login-fields{
+		min-height: 70px;
+	}
+	.registrationbox .registration form#member-registration button{
+		margin-left: 79px;
+	}
+	#header #top #top_primary .moduletable_menu .menu_tree .dropdown-menu ul li{
+		width: 270px;
+	}
+	.mod-ourblog .category-module >li .content{
+		width: 100%;
+	}
+	#header #top #top_primary{
+		display: table;
+		.moduletable_menu{
+			padding: 0;
+		}
+		.moduletable_menu .show_menu_tree,
+		.shopcart .mod_cart_main .mod-cart-wishlist-button,
+		.shopcart .mod_cart_main .mod_cart_top,
+		.shopcart .mod_cart_main .mod_cart_top .mod_cart_title,
+		.redsearch .product_search{
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+		}
+		.modlogin,.moduletable{
+			height: 40px;
+			line-height: 40px;
+			display: table-cell;
+			vertical-align: middle;
+			float: none;
+		}
+	}
+	.is_firefox{
+		.redcarp .slide-content .slideTitle h3 a:before{
+			height: 200%;
+		}
+	}
+}
