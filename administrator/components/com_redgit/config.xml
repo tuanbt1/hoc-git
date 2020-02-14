@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config addfieldpath="/libraries/redgit/form/field">
+	<fieldset name="global" label="COM_REDGIT_CONFIG_FIELDSET_GLOBAL">
+	</fieldset>
+</config>

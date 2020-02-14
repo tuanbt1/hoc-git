@@ -1,0 +1,86 @@
+.redslider2 .flex-viewport{
+    overflow: visible!important;
+}
+.redslider2 ul.slides
+{
+    padding:0px;
+    margin:0px;
+}
+.redslider2 ul.slides > li
+{
+    list-style: none;
+    position: relative;
+}
+
+.redslider2 ul.slides > li .slide-content
+{
+    position: absolute;
+}
+.redslider2 ul.slides > li .slide-content p
+{
+    text-align: center;
+    color: #000;
+    text-overflow: ellipsis;
+}
+.redslider2 ul.slides > li .slide-content .slideTitle > h3{
+    text-align: left;
+}
+.redslider2 .flex-direction-nav
+{
+    list-style: none;
+}
+.redslider2 .flex-direction-nav .flex-next:before{
+	content: url('../../images/right-arrow.png');
+	background: url('../../images/right-arrow.png') no-repeat;
+}
+.redslider2 .flex-direction-nav .flex-prev:before{
+	content: url('../../images/left-arrow.png');
+	background: url('../../images/left-arrow.png') no-repeat;
+}
+.redslider2 .flex-direction-nav
+{
+    margin:0px;
+}
+.redslider2 .flex-direction-nav a
+{
+    line-height:45px;
+    background:none;
+}
+.redslider2 .flex-direction-nav a:hover
+{
+    opacity: 1;
+}
+.redslider2 .flex-control-nav
+{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 2000;
+}
+.redslider2 .flex-control-nav li
+{
+    padding:0 3px;
+    margin: 0;
+}
+.redslider2 .flex-control-nav a
+{
+    background-color:#8d8d8d;
+    width: 9px;
+    height: 9px;
+}
+.redslider2 .flex-control-nav a.flex-active
+{
+    background-color:#fff;
+    width: 10px;
+    height: 10px;
+}
+.redslider2 .flex-control-nav a:hover
+{
+    background-color:#fff;
+}
+.redslider2 .carousel img{
+    height: 100%;
+    max-height: 100px;
+}

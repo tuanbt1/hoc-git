@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="global" label="LIB_REDGIT_STATION_FIELDSET_GLOBAL">
+		<field
+			type="text"
+			name="git_repository"
+			label="LIB_REDGIT_STATION_FIELD_GIT_REPOSITORY"
+			description="LIB_REDGIT_STATION_FIELD_GIT_REPOSITORY_DESC"
+			required="true"
+			class="form-control"
+		/>
+		<field
+			type="text"
+			name="git_user"
+			label="LIB_REDGIT_STATION_FIELD_GIT_USER"
+			description="LIB_REDGIT_STATION_FIELD_GIT_USER_DESC"
+			required="true"
+			class="form-control"
+		/>
+		<field
+			type="text"
+			name="git_email"
+			label="LIB_REDGIT_STATION_FIELD_GIT_EMAIL"
+			description="LIB_REDGIT_STATION_FIELD_GIT_EMAIL_DESC"
+			required="true"
+			class="form-control"
+		/>
+		<field
+			type="text"
+			name="git_branch"
+			label="LIB_REDGIT_STATION_FIELD_GIT_BRANCH"
+			description="LIB_REDGIT_STATION_FIELD_GIT_BRANCH_DESC"
+			hint="LIB_REDGIT_STATION_FIELD_GIT_BRANCH_PLACEHOLDER"
+			required="true"
+			class="form-control"
+		/>
+		<field
+			name="default_commit_message"
+			type="text"
+			default="[server] Latest version"
+			label="LIB_REDGIT_STATION_FIELD_GIT_DEFAULT_COMMIT_MESSAGE"
+			description="LIB_REDGIT_STATION_FIELD_GIT_DEFAULT_COMMIT_MESSAGE_DESC"
+			class="form-control"
+		/>
+	</fieldset>
+	<fieldset name="ssh" label="LIB_REDGIT_STATION_FIELDSET_SSH">
+		<field
+			name="ssh_private_key"
+			type="text"
+			label="LIB_REDGIT_STATION_FIELD_SSH_PRIVATE_KEY"
+			description="LIB_REDGIT_STATION_FIELD_SSH_PRIVATE_KEY_DESC"
+			required="true"
+			class="form-control"
+		/>
+		<field
+			name="ssh_port"
+			type="text"
+			label="LIB_REDGIT_STATION_FIELD_SSH_PORT"
+			description="LIB_REDGIT_STATION_FIELD_SSH_PORT_DESC"
+			default="22"
+			required="true"
+			class="form-control"
+		/>
+		<field
+			name="ssh_wrapper_folder"
+			type="text"
+			label="LIB_REDGIT_STATION_FIELD_SSH_WRAPPER_FOLDER"
+			description="LIB_REDGIT_STATION_FIELD_SSH_WRAPPER_FOLDER_DESC"
+			hint="LIB_REDGIT_STATION_FIELD_SSH_WRAPPER_FOLDER_HINT"
+			class="form-control"
+		/>
+		<field
+			name="git_path"
+			type="text"
+			label="LIB_REDGIT_STATION_FIELD_GIT_PATH"
+			description="LIB_REDGIT_STATION_FIELD_GIT_PATH_DESC"
+			hint="LIB_REDGIT_STATION_FIELD_GIT_PATH_HINT"
+			class="form-control"
+		/>
+	</fieldset>
+	<fieldset name="permissions" label="LIB_REDGIT_STATION_FIELDSET_PERMISSIONS">
+		<field
+			name="db_dump_enabled"
+			type="list"
+			default="0"
+			label="LIB_REDGIT_STATION_FIELD_DB_DUMP_ENABLED"
+			description="LIB_REDGIT_STATION_FIELD_DB_DUMP_ENABLED_DESC"
+			required="true"
+			class="form-control"
+			>
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		<field
+			name="db_restore_enabled"
+			type="list"
+			default="0"
+			label="LIB_REDGIT_STATION_FIELD_DB_RESTORE_ENABLED"
+			description="LIB_REDGIT_STATION_FIELD_DB_RESTORE_ENABLED_DESC"
+			required="true"
+			class="form-control"
+			>
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		<field
+			name="git_pull_enabled"
+			type="list"
+			default="0"
+			label="LIB_REDGIT_STATION_FIELD_GIT_PULL_ENABLED"
+			description="LIB_REDGIT_STATION_FIELD_GIT_PULL_ENABLED_DESC"
+			required="true"
+			class="form-control"
+			>
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		<field
+			name="git_push_enabled"
+			type="list"
+			default="0"
+			label="LIB_REDGIT_STATION_FIELD_GIT_PUSH_ENABLED"
+			description="LIB_REDGIT_STATION_FIELD_GIT_PUSH_ENABLED_DESC"
+			required="true"
+			class="form-control"
+			>
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+	</fieldset>
+</form>
