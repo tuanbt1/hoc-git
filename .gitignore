@@ -1,0 +1,103 @@
+# Avoid tracking backup
+*.jpa
+
+# Avoid tracking images
+#images/*
+Thumbs.db
+
+#PHPStorm
+.idea
+
+# Backups
+administrator/components/com_akeeba/backup/*
+
+# Local errors
+log/*
+logs/*
+administrator/logs/*
+
+# Sublime Text
+*.sublime*
+
+# Configs
+/configuration.php
+flow/conf/*
+redgit/conf/*
+
+# Local cache
+cache/*
+administrator/cache/*
+components/com_sh404sef/cache/*
+
+# Temp files
+tmp/*
+
+# Local cache
+cache/*
+administrator/cache/*
+components/com_sh404sef/cache/*
+
+# Temp files
+tmp/*
+
+# Build systems
+bower_components
+node_modules
+
+# Ignore template css so it's generated for each enviroment
+templates/redcomponent/css/style.css
+templates/mobapp/css/style.css
+
+# Avoid tracking htaccess to avoid local folder protection
+.htaccess
+
+# Never ignore
+!.gitignore
+!index.html
+!index.php
+
+components/com_redshop/assets/images/tmp/*
+components/com_redshop/assets/images/*/thumb/*
+components/com_redshop/assets/images/mergeImages/*
+templates/*/css/style.css
+templates/*/css/style-responsive.css
+templates/*/css/joomla3-generic.css
+templates/*/css/joomla3-generic-responsive.css
+templates/*/js/template.js
+
+templates/*/dist/css/style.css
+templates/*/dist/js/js.js
+
+media/com_reditem/images/customfield/*/thumbnail_*
+media/com_reditem/images/category/*/large_*
+media/com_reditem/images/category/*/medium_*
+media/com_reditem/images/category/*/small_*
+media/com_reditem/images/categoryfield/*/thumbnail_*
+media/com_reditem/files/customfield/temporary/*
+media/com_reditem/files/temporary/*
+media/com_reditem/images/customfield/*
+
+media/com_redshop/images/category/*/thumb
+media/com_redshop/images/product/*/thumb
+
+components/com_redshop/assets/xmlfile/export/*
+
+media/plg_jchoptimize/cache/*
+media/com_redshop/images/tmp/*
+
+components/com_redshop/assets/images/*
+media/com_redshop/images/*
+
+XML_upload/*
+import-reporting-service/*
+erp/*
+produktbilleder/*
+reporting-service-pdf/*
+phocadownload/*
+phocadownloadpap/*
+mailfiles/*
+sftp-config.json
+import-service/*
+downloads/*
+
+administrator/components/com_redshop/config/config.php
